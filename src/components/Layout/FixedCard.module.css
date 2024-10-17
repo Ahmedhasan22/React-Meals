@@ -1,0 +1,19 @@
+.fixed-card {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 2% 5% ;
+    padding-bottom: 2rem;
+    margin-top: 10%;
+    font: bold italic 1rem sans-serif;
+    background-color: #500303e8;
+    color: #fafafa;
+}
+@media screen and (max-width: 780px) {
+    .fixed-card{
+        width: 80%;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+        font-size: 0.8rem;
+    }    
+}

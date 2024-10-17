@@ -1,0 +1,77 @@
+.nav {
+    background-color: #9B6744;
+    width: 100%;
+    padding: 0.5rem 5%;
+    margin: 0;
+    align-items: center;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    top: 0;
+    z-index: 556;
+
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    text-shadow: 6px 2px 10px #500303;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title span {
+    text-shadow: 2px 1px 8px #ffffff;
+}
+
+.cart-button {
+    max-width: 35%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: #280900;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    height: 4rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+}
+
+.cart-button img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.count {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #11a004;
+    border: 1px solid rgba(32, 32, 32, 0.856);
+}
+
+@media screen and (max-width: 480px) {
+    .cart-button h3 {
+        display: none;
+        padding: 0rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
